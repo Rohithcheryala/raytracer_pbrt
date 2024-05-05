@@ -1,0 +1,141 @@
+# RayTracer PBRT IN RUST
+
+## SOURCE
+https://www.pbr-book.org/4ed/contents
+
+- [ ] 1 Introduction
+  - [ ] 1.1 Literate Programming
+  - [ ] 1.2 Photorealistic Rendering and the Ray-Tracing Algorithm
+  - [ ] 1.3 pbrt: System Overview
+  - [ ] 1.4 How to Proceed through This Book
+  - [ ] 1.5 Using and Understanding the Code
+  - [ ] 1.6 A Brief History of Physically Based Rendering
+  - [ ] Further Reading
+  - [ ] Exercises
+- [ ] 2 Monte Carlo Integration
+  - [ ] 2.1 Monte Carlo: Basics
+  - [ ] 2.2 Improving Efficiency
+  - [ ] 2.3 Sampling Using the Inversion Method
+  - [ ] 2.4 Transforming between Distributions
+  - [ ] Further Reading
+  - [ ] Exercises
+- [ ] 3 Geometry and Transformations
+  - [ ] 3.1 Coordinate Systems
+  - [ ] 3.2 n-Tuple Base Classes
+  - [ ] 3.3 Vectors
+  - [ ] 3.4 Points
+  - [ ] 3.5 Normals
+  - [ ] 3.6 Rays
+  - [ ] 3.7 Bounding Boxes
+  - [ ] 3.8 Spherical Geometry
+  - [ ] 3.9 Transformations
+  - [ ] 3.10 Applying Transformations
+  - [ ] 3.11 Interactions
+  - [ ] Further Reading
+  - [ ] Exercises
+- [ ] 4 Radiometry, Spectra, and Color
+  - [ ] 4.1 Radiometry
+  - [ ] 4.2 Working with Radiometric Integrals
+  - [ ] 4.3 Surface Reflection
+  - [ ] 4.4 Light Emission
+  - [ ] 4.5 Representing Spectral Distributions
+  - [ ] 4.6 Color
+  - [ ] Further Reading
+  - [ ] Exercises
+- [ ] 5 Cameras and Film
+  - [ ] 5.1 Camera Interface
+  - [ ] 5.2 Projective Camera Models
+  - [ ] 5.3 Spherical Camera
+  - [ ] 5.4 Film and Imaging
+  - [ ] Further Reading
+  - [ ] Exercises
+- [ ] 6 Shapes
+  - [ ] 6.1 Basic Shape Interface
+  - [ ] 6.2 Spheres
+  - [ ] 6.3 Cylinders
+  - [ ] 6.4 Disks
+  - [ ] 6.5 Triangle Meshes
+  - [ ] 6.6 Bilinear Patches
+  - [ ] 6.7 Curves
+  - [ ] 6.8 Managing Rounding Error
+  - [ ] Further Reading
+  - [ ] Exercises
+- [ ] 7 Primitives and Intersection Acceleration
+  - [ ] 7.1 Primitive Interface and Geometric Primitives
+  - [ ] 7.2 Aggregates
+  - [ ] 7.3 Bounding Volume Hierarchies
+  - [ ] Further Reading
+  - [ ] Exercises
+- [ ] 8 Sampling and Reconstruction
+  - [ ] 8.1 Sampling Theory
+  - [ ] 8.2 Sampling and Integration
+  - [ ] 8.3 Sampling Interface
+  - [ ] 8.4 Independent Sampler
+  - [ ] 8.5 Stratified Sampler
+  - [ ] 8.6 Halton Sampler
+  - [ ] 8.7 Sobol’ Samplers
+  - [ ] 8.8 Image Reconstruction
+  - [ ] Further Reading
+  - [ ] Exercises
+- [ ] 9 Reflection Models
+  - [ ] 9.1 BSDF Representation
+  - [ ] 9.2 Diffuse Reflection
+  - [ ] 9.3 Specular Reflection and Transmission
+  - [ ] 9.4 Conductor BRDF
+  - [ ] 9.5 Dielectric BSDF
+  - [ ] 9.6 Roughness Using Microfacet Theory
+  - [ ] 9.7 Rough Dielectric BSDF
+  - [ ] 9.8 Measured BSDFs
+  - [ ] 9.9 Scattering from Hair
+  - [ ] Further Reading
+  - [ ] Exercises
+- [ ] 10 Textures and Materials
+  - [ ] 10.1 Texture Sampling and Antialiasing
+  - [ ] 10.2 Texture Coordinate Generation
+  - [ ] 10.3 Texture Interface and Basic Textures
+  - [ ] 10.4 Image Texture
+  - [ ] 10.5 Material Interface and Implementations
+  - [ ] Further Reading
+  - [ ] Exercises
+- [ ] 11 Volume Scattering
+  - [ ] 11.1 Volume Scattering Processes
+  - [ ] 11.2 Transmittance
+  - [ ] 11.3 Phase Functions
+  - [ ] 11.4 Media
+  - [ ] Further Reading
+  - [ ] Exercises
+- [ ] 12 Light Sources
+  - [ ] 12.1 Light Interface
+  - [ ] 12.2 Point Lights
+  - [ ] 12.3 Distant Lights
+  - [ ] 12.4 Area Lights
+  - [ ] 12.5 Infinite Area Lights
+  - [ ] 12.6 Light Sampling
+  - [ ] Further Reading
+  - [ ] Exercises
+- [ ] 13 Light Transport I: Surface Reflection
+  - [ ] 13.1 The Light Transport Equation
+  - [ ] 13.2 Path Tracing
+  - [ ] 13.3 A Simple Path Tracer
+  - [ ] 13.4 A Better Path Tracer
+  - [ ] Further Reading
+  - [ ] Exercises
+- [ ] 14 Light Transport II: Volume Rendering
+  - [ ] 14.1 The Equation of Transfer
+  - [ ] 14.2 Volume Scattering Integrators
+  - [ ] 14.3 Scattering from Layered Materials
+  - [ ] Further Reading
+  - [ ] Exercises
+- [ ] 15 Wavefront Rendering on GPUs
+  - [ ] 15.1 Mapping Path Tracing to the GPU
+  - [ ] 15.2 Implementation Foundations
+  - [ ] 15.3 Path Tracer Implementation
+  - [ ] Further Reading
+  - [ ] Exercises
+- [ ] 16 Retrospective and the Future
+  - [ ] 16.1 pbrt over the Years
+  - [ ] 16.2 Design Alternatives
+  - [ ] 16.3 Emerging Topics
+  - [ ] 16.4 The Future
+  - [ ] 16.5 Conclusion
+  - [ ] Further Reading
